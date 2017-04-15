@@ -28,7 +28,7 @@ router.post('/invite', function(req, res) {
         if (body.ok) {
           res.render('result', {
             community: config.community,
-            message: '¡Enviado! Comprueba la dirección &ldquo;'+ req.body.email +'&rdquo; encontrarás la invitación a BOScoin en Slack.'
+            message: '¡Enviado! Comprueba la dirección &ldquo;'+ req.body.email +'&rdquo; y encontrarás la invitación a BOScoin en Slack.'
           });
         } else {
           var error = body.error;
