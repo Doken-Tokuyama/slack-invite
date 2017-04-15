@@ -1,6 +1,6 @@
 {
-  "HEADER": "¡Ingresa tu dirección de e-mail debajo y te enviaremos una invitación para unirte a %s en Slack!",
-  "ENTER_EMAIL": "Ingresa tu dirección de email",
-  "ENTER_TOKEN": "Ingresa el código de invitación",
+  "HEADER": "¡Escribe tu dirección e-mail y recibe una invitación para unirte a %s en Slack!",
+  "ENTER_EMAIL": "Escribe tu dirección de email",
+  "ENTER_TOKEN": "Escribe el código de invitación",
 "TITLE": "¡Únete a la comunidad de %s en Slack!"
 }
