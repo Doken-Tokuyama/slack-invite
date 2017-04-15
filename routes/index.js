@@ -55,7 +55,7 @@ router.post('/invite', function(req, res) {
   } else {
     var errMsg = [];
     if (!req.body.email) {
-      errMsg.push('your email is required');
+      errMsg.push('es necesario una dirección e-mail');
     }
 
     if (!!config.inviteToken) {
